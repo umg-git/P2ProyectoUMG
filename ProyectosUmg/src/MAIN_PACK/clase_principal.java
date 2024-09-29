@@ -8,8 +8,10 @@ import proyecto_umg.producto;
 import proyecto_umg.ventas;
 
 import java.util.Scanner;
-
-
+import factory.abstractFactory;
+import factory.concreteFactory;
+import Interface.IProducto;
+import JSON.json;
 public class clase_principal {
 
 	private static void mensaje(String cadena) {
@@ -18,18 +20,27 @@ public class clase_principal {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		mensaje("Bienvenido al Sistema de Control de Proceso(SCP).");
+        abstractFactory fabrica = new concreteFactory();
+        
+        //Instancia a la clase menu
+        menu m = new menu();
+        m.Menu();
+        
+        IProducto producto1 = fabrica.crearProducto("camisas");
+        //IProducto producto2 = fabrica.crearProducto("sueteres");
+
+        producto1.Producir();
+        //producto2.Producir();
+		
+		
+		
+		/*mensaje("Bienvenido al Sistema de Control de Proceso(SCP).");
 		int op = 0;
+		mensaje("Seleccione la operación a realizar.");
 		menu m = new menu();
 		m.Menu();
-
-
-
-		mensaje("4. Producto.");
-		mensaje("5. Facturación.");
-		mensaje("6. unknown");
-		mensaje("7. unknown");
-		
+		mensaje("Seleccione la operación a realizar.");
+		op = sc.nextInt();
 		switch(op) {
 		case 1:
 			String fechaVenta = "";
@@ -133,7 +144,7 @@ public class clase_principal {
 			mensaje(factu.getCliente());
 			mensaje(factu.getProducto());
 			break;
-		}
+		}*/
 		
 
 	}

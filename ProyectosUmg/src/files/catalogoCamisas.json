@@ -1,0 +1,86 @@
+{
+    "CatalogoCamisas": [
+        {
+            "tipo": "Camisas",
+            "precio": "500",
+            "estado": "D",
+            "tamaño": "M",
+            "stock": "5",
+            "nombre": "Camisas 01"
+        },
+        {
+            "tipo": "Camisas",
+            "precio": "300",
+            "estado": "P",
+            "tamaño": "S",
+            "stock": "5",
+            "nombre": "Camisas 02"
+        },
+        {
+            "tipo": "Camisas",
+            "precio": "200",
+            "estado": "p",
+            "tamaño": "XL",
+            "stock": "5",
+            "nombre": "Camisas 03"
+        },
+        {
+            "tipo": "Camisas",
+            "precio": "270",
+            "estado": "D",
+            "tamaño": "L",
+            "stock": "15",
+            "nombre": "Camisas 04"
+        },
+        {
+            "tipo": "sueter blanco",
+            "precio": "500",
+            "estado": "D",
+            "tamaño": "s",
+            "stock": "10",
+            "nombre": "sueter blanco"
+        }
+    ],
+    "PlatoFuerte": [
+        {
+            "tipo": "Camisas",
+            "precio": "500",
+            "estado": "D",
+            "tamaño": "M",
+            "stock": "5",
+            "nombre": "Camisas 01"
+        },
+        {
+            "tipo": "Camisas",
+            "precio": "300",
+            "estado": "P",
+            "tamaño": "S",
+            "stock": "5",
+            "nombre": "Camisas 02"
+        },
+        {
+            "tipo": "Camisas",
+            "precio": "200",
+            "estado": "p",
+            "tamaño": "XL",
+            "stock": "5",
+            "nombre": "Camisas 03"
+        },
+        {
+            "tipo": "Camisas",
+            "precio": "270",
+            "estado": "D",
+            "tamaño": "L",
+            "stock": "15",
+            "nombre": "Camisas 04"
+        },
+        {
+            "tipo": "sueter blanco",
+            "precio": "500",
+            "estado": "D",
+            "tamaño": "s",
+            "stock": "10",
+            "nombre": "sueter blanco"
+        }
+    ]
+}

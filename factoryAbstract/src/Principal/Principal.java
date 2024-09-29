@@ -20,7 +20,7 @@ public class Principal {
 		FabricaBusetas busetas=new FabricaBusetas();
 		FabricaTaxis taxi=new FabricaTaxis();
 		FabricaBuses buses=new FabricaBuses();
-		String mensaje="",salida;
+		String mensaje = "",salida;
 		mensaje+="Ingrese la opci�n correspondiente para obtener \nel codigo del servicio\n\n";
 		mensaje+="1. Codigo servicio de Taxis\n";
 		mensaje+="2. Codigo servicio de Buses\n";
