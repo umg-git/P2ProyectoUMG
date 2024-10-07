@@ -1,13 +1,20 @@
 package Concrete;
-import Interface.IProducto;
+import Interface.IGeneral;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import JSON.json;
 
-public class concreteCamisas implements  IProducto {
+public class concretePeticion implements  IGeneral {
 
 	@Override
-	public void Producir() {
+	public void Peticion() {
 		Scanner sc = new Scanner(System.in);
 		json obj = new json();
 		int op = 0;
@@ -25,6 +32,8 @@ public class concreteCamisas implements  IProducto {
 			break;
 		default:
 			System.out.println("Opcion invalidad.");
-		}		
+		}
 	}
+	
+	
 }

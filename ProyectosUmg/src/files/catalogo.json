@@ -1,0 +1,20 @@
+{
+    "Catalogo": [
+        {
+            "tipo": "camisas",
+            "precio": "500",
+            "estado": "D",
+            "tamaño": "M",
+            "stock": "5",
+            "nombre": "Camisas 01"
+        },
+        {
+            "tipo": "sueter",
+            "precio": "300",
+            "estado": "P",
+            "tamaño": "S",
+            "stock": "5",
+            "nombre": "sueter 02"
+        }
+    ]    
+}

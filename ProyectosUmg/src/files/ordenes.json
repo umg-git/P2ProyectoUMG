@@ -1,0 +1,23 @@
+{"ordenes": [
+    {
+        "cliente": "Kevin Ma",
+        "cantidad": "2",
+        "noOrden": "1",
+        "telefono": "12345678",
+        "productoOrdenado": "sueter"
+    },
+    {
+        "cliente": "Adolf Hitler",
+        "cantidad": "2",
+        "noOrden": "2",
+        "telefono": "87654321",
+        "productoOrdenado": "camisas"
+    },
+    {
+        "cliente": "Tommas Ha",
+        "cantidad": "5",
+        "noOrden": "3",
+        "telefono": "15585665",
+        "productoOrdenado": "sueter"
+    }
+]}

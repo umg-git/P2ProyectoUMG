@@ -16,7 +16,7 @@ public class json {
 	public void lecturaJSON() {
 
 		//ruta relativa
-		String archivoJSON = "src\\files\\catalogoCamisas.json";
+		String archivoJSON = "src\\files\\catalogo.json";
 		try {
 	        // Lee el archivo json
             String contenido = new String(Files.readAllBytes(Paths.get(archivoJSON)));
@@ -25,7 +25,7 @@ public class json {
             JSONObject objetoJSON = new JSONObject(contenido);
 
             // Obtiene el arreglo de platos fuertes
-            JSONArray item = objetoJSON.getJSONArray("CatalogoCamisas");
+            JSONArray item = objetoJSON.getJSONArray("Catalogo");
 
             // Recorre cada elemento del arreglo
             for (int i = 0; i < item.length(); i++) {
@@ -48,6 +48,8 @@ public class json {
                 System.out.println("Tamaño: " + tamaño);
                 System.out.println("Estado: " + estado);
                 System.out.println("--------------------");
+                
+                
 	        
 		}
 		}
@@ -64,7 +66,7 @@ public class json {
 	public void escribirJSON() {
 		Scanner sc = new Scanner(System.in);
 		String tipo, descripcion, precio, stock, tamaño, estado;
-		String archivoJSON = "src\\files\\catalogoCamisas.json";
+		String archivoJSON = "src\\files\\catalogo.json";
 		try {
 	        
 	        // Leer el archivo json existente como un string
@@ -74,7 +76,7 @@ public class json {
 	        JSONObject objetoJSON = new JSONObject(contenido);
 
 	        // Obtiene el arreglo de camisas
-	        JSONArray items = objetoJSON.getJSONArray("CatalogoCamisas");
+	        JSONArray items = objetoJSON.getJSONArray("Catalogo");
 
 	        //Solicitamos los datos del producto
 	        System.out.println("Ingrese el tipo de producto(camisa o sueter)");
@@ -103,7 +105,7 @@ public class json {
 	        items.put(nuevoRegistro);
 
 	        // Actualiza el json original con los nuevos datos
-	        objetoJSON.put("PlatoFuerte", items);
+	        objetoJSON.put("catalogo", items);
 
 	        // Escribe el nuevo json en el archivo (sobrescribiendo el archivo anterior)
 	        Files.write(Paths.get(archivoJSON), objetoJSON.toString(4).getBytes(), StandardOpenOption.TRUNCATE_EXISTING);

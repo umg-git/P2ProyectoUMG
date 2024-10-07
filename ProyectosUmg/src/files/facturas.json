@@ -1,0 +1,20 @@
+{"facturas": [
+    {
+        "fecha": "",
+        "cliente": "",
+        "noFactura": "",
+        "telefono": "",
+        "productoOrdenado": "sueter",
+        "cantidadProducto": "",
+        "totalPrecio": ""
+    },
+    {
+        "fecha": "Sun Oct 06 20:14:11 CST 2024",
+        "cliente": "Tommas Ha",
+        "noFactura": "3",
+        "telefono": "15585665",
+        "productoOrdenado": "sueter",
+        "cantidadProducto": "5",
+        "totalPrecio": "3"
+    }
+]}

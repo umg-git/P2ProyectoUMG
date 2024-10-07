@@ -9,6 +9,7 @@ public class menu {
 	
 	public void Menu() {
 		mensaje("Seleccione un opcion.");
+		mensaje("1. Realizar orden.");
 		mensaje("1. Ventas.");
 		mensaje("2. Compras.");
 		mensaje("3. Cliente.");
